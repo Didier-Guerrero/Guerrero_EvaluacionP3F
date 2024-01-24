@@ -17,16 +17,16 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Label Text="Ingrese el nombre del pais" Grid.Row="0" Grid.Column="0" TextColor="Black"/>
-        <Entry x:Name="DG_Pais" Grid.Row="1" Grid.Column="0" TextColor="Black"/>
+        <Label Text="Ingrese el nombre del pais" Grid.Row="0" Grid.Column="0" TextColor="Gray"/>
+        <Entry x:Name="DG_Pais" Grid.Row="1" Grid.Column="0" TextColor="Gray"/>
         <Button Text="Consultar Pais" Grid.Row="2" Grid.ColumnSpan="2" Clicked="DG_Consultar_Clicked" BackgroundColor="#575757"/>
         <Label x:Name="DG_Error" Grid.Row="3" Grid.ColumnSpan="2" FontSize="30" TextColor="Red"/>
-        
-        <Label Text="DG_NombrePais" Grid.Row="4" Grid.Column="0" TextColor="White"/>
-        <Label x:Name="DG_PaisLabel" Grid.Row="4" Grid.Column="1" TextColor="AliceBlue"/>
-        <Label Text="DG_Moneda" Grid.Row="5" Grid.Column="0" TextColor="Black"/>
-        <Label x:Name="DG_MonedaLabel" Grid.Row="5" Grid.Column="1" TextColor="Black"/>
-        <Label Text="DG_Capital" Grid.Row="6" Grid.Column="0" TextColor="Black"/>
-        <Label x:Name="DG_CapitalLabel" Grid.Row="6" Grid.Column="1" TextColor="Black"/>
+
+        <Label Text="DG_NombrePais" Grid.Row="4" Grid.Column="0" TextColor="Gray"/>
+        <Label x:Name="DG_PaisLabel" Grid.Row="4" Grid.Column="1" TextColor="Gray"/>
+        <Label Text="DG_Moneda" Grid.Row="5" Grid.Column="0" TextColor="Gray"/>
+        <Label x:Name="DG_MonedaLabel" Grid.Row="5" Grid.Column="1" TextColor="Gray"/>
+        <Label Text="DG_Capital" Grid.Row="6" Grid.Column="0" TextColor="Gray"/>
+        <Label x:Name="DG_CapitalLabel" Grid.Row="6" Grid.Column="1" TextColor="Gray"/>
     </Grid>
 </ContentPage>

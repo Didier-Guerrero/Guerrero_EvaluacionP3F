@@ -30,6 +30,9 @@ public partial class DG_PaisAPI : ContentPage
                     if (DG_PaisAPI.Count > 0)
                     {
                         var firstCountry = DG_PaisAPI[0];
+                        DG_PaisLabel.Text = firstCountry.name.common;
+                        DG_MonedaLabel.Text = firstCountry.currencies.EUR.name;
+                        DG_CapitalLabel.Text = firstCountry.capital[0];
                     }
 
                 }
